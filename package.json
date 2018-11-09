@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "JUNIT_REPORT_PATH=/report.xml mocha --colors --reporter mocha-jenkins-reporter test.js"
+    "test": "JUNIT_REPORT_PATH=report.xml mocha --colors --reporter mocha-jenkins-reporter test.js"
   },
   "repository": {
     "type": "git",
